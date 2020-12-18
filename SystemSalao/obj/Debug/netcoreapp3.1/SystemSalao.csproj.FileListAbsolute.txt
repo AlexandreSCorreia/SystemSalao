@@ -35,3 +35,5 @@ C:\Users\Mistery\source\repos\SystemSalao\SystemSalao\obj\Debug\netcoreapp3.1\Sy
 C:\Users\Mistery\source\repos\SystemSalao\SystemSalao\obj\Debug\netcoreapp3.1\SystemSalao.csproj.CopyComplete
 C:\Users\Mistery\source\repos\SystemSalao\SystemSalao\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\Mistery\source\repos\SystemSalao\SystemSalao\obj\Debug\netcoreapp3.1\Razor\Views\Login\Privacy.cshtml.g.cs
+C:\Users\Mistery\source\repos\SystemSalao\SystemSalao\obj\Debug\netcoreapp3.1\Razor\Views\Cadastro\Index.cshtml.g.cs
+C:\Users\Mistery\source\repos\SystemSalao\SystemSalao\obj\Debug\netcoreapp3.1\Razor\Views\Main\Index.cshtml.g.cs

@@ -5,18 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+for details on configuring this project to bundle and minify static web assets. 
 
 a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
-
-/* Provide sufficient contrast against white background */
+ */
+/* Provide sufficient contrast against white background 
 a {
   color: #0366d6;
 }
@@ -32,9 +30,10 @@ a {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
-
+    */
 /* Sticky footer styles
--------------------------------------------------- */
+-------------------------------------------------- 
+
 html {
     font-size: 14px;
 }
@@ -60,53 +59,79 @@ button.accept-policy {
   line-height: inherit;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+/* Sticky footer styles*/
+/*-------------------------------------------------- 
 html {
   position: relative;
   min-height: 100%;
 }
 
-body {
-  /* Margin bottom by footer height */
+body {*/
+    /* Margin bottom by footer height 
   margin-bottom: 60px;
-  background:url('../assets/background.jpg') no-repeat;
-  background-position:center;
-  background-size:cover;
- 
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: rgba(128, 128, 128,0.7);
-  letter-spacing: 1px;
 }
 
-    .footer .text-white a {
-        color: #1332bd;
-        font-weight: 500;
-    
-    }
+    /*
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+}
+*/
 
 
-    .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
+.main-login, .main-cadastro {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
 }
 
+.main-login {
+    background: url('../assets/background-min.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-cadastro {
+    background: url('../assets/background-cadastro-min.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nome-salao {
+    width: 400px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%,-50%);
+    background-color: rgba(128, 128, 128,0.8);
+    padding: 10px;
+}
+
+.nome-salao i {
+    font-size: 5em;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.nome-salao span {
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nome-salao p {
+    text-align: left;
+    padding-left: 60px;
+}
 
 .form-login .form-signin {
     width: 100%;
@@ -121,56 +146,103 @@ body {
     border-radius: 12px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,1);
 }
 
-.form-login .form-signin i{
-    font-size:5em;
-    margin-bottom:10px;
+.form-login .form-signin i {
+   font-size: 5em;
+   margin-bottom: 10px;
+ }
+
+.form-login .form-signin input[type="email"], .form-login .form-signin input[type="password"], button[type="submit"] {
+   width: 350px;
+   display: block;
+   margin: 0 auto;
 }
-    .form-login .form-signin input[type="email"], .form-login .form-signin input[type="password"], button[type="submit"] {
-        width: 350px;
-        display: block;
-        margin: 0 auto;
-    }
-    .form-login .form-signin input[type="email"], .form-login .form-signin input[type="password"] {       
-        margin-bottom: 10px;
-    }
 
-    .form-login .form-signin .checkbox {
-        display: flex;
-        text-align: left;
-        justify-content: left;
-        margin-left:12%
-    }
+.form-login .form-signin input[type="email"], .form-login .form-signin input[type="password"] {
+   margin-bottom: 10px;
+}
 
+.form-login .form-signin .checkbox {
+   display: flex;
+   text-align: left;
+   justify-content: left;
+   margin-left: 12%
+}
 
-.nome-salao {
-    width: 400px;
-    display: block;
+/*Cadastro*/
+
+.form-cadastro {
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid red;
     position: absolute;
     top: 50%;
-    left: 10%;
-    transform: translate(-10%,-50%);
-    background-color: rgba(128, 128, 128,0.8);
-    padding:10px;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,1);
 }
 
-.nome-salao i{
-    font-size:5em;
-    color: #fff;
-    padding-left:20px;
+.form-cadastro i {
+   font-size: 4em;
+   margin-bottom: 10px;
 }
 
-    .nome-salao span{
-        font-size: 2em;
-        color: #fff;
-        text-transform:uppercase;
-        padding: 10px;
-       
+.form-cadastro input{
+    margin-bottom:15px;
+}
+
+
+
+    /*Cadastro*/
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        white-space: nowrap;
+        line-height: 60px; /* Vertically center the text there */
+        background-color: #fff;
+        letter-spacing: 1px;
+        clip-path: polygon(0 0, 35% 0, 44% 100%, 0% 100%);
     }
 
-.nome-salao p {
-    text-align: left;
-    padding-left:60px;
+.footer.text-white a {
+  color: #1332bd;
+  font-weight: 500;    
 }
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .nome-salao {
+        display: none;
+    }
+
+    .form-login .form-signin, .form-cadastro {
+        top: 50%;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .footer {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
