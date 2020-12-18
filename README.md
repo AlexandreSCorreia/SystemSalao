@@ -66,9 +66,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Feito com ❤️ por Alexandre Correia 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Alexandre-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-solano-a35227158/)]
-(https://www.linkedin.com/in/alexandre-solano-a35227158/) 
+
 [![Gmail Badge](https://img.shields.io/badge/-alexandrecorreiacorporativo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandrecorreiacorporativo@gmail.com)]
-(mailto:alexandrecorreiacorporativo@gmail.com)
+
 
 
 MIT License
