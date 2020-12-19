@@ -12,5 +12,10 @@ namespace SystemSalao.Controllers
         {
             return View();
         }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
 }

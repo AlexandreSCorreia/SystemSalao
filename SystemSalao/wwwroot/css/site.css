@@ -154,13 +154,13 @@ body {*/
    margin-bottom: 10px;
  }
 
-.form-login .form-signin input[type="email"], .form-login .form-signin input[type="password"], button[type="submit"] {
+.form-login .form-signin input[type="text"], .form-login .form-signin input[type="password"], button[type="submit"] {
    width: 350px;
    display: block;
    margin: 0 auto;
 }
 
-.form-login .form-signin input[type="email"], .form-login .form-signin input[type="password"] {
+.form-login .form-signin input[type="text"], .form-login .form-signin input[type="password"] {
    margin-bottom: 10px;
 }
 
@@ -198,10 +198,11 @@ body {*/
     margin-bottom:15px;
 }
 
-
-
-    /*Cadastro*/
-    .footer {
+    .form-cadastro input:nth-last-of-type(-n+1) {
+        margin-bottom: 50px;
+    }
+        /*Cadastro*/
+        .footer {
         position: absolute;
         bottom: 0;
         width: 100%;
