@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="#">🔗 System Salão</a>
+    <a href="#">🔗 SystemSalao</a>
 </h1>
 <p align="center">🚀 Sistema para salão de cabelereiro pequeno de cominidade.</p>
 
@@ -19,57 +19,51 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com). 
+Além disto é bom ter um editor para trabalhar com o código como [Visual Studio 2019](https://visualstudio.microsoft.com/pt-br/vs/)
+!! Marque na instalação o ASP.Net Core !!
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Rodando o Projeto
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/AlexandreSCorreia/SystemSalao.git>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+# Abra o projeto com o Visual Studio
 
-# Vá para a pasta server
-$ cd server
+# Clique no botão verde escrito IIS Express
 
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [C SHARP (C#)](https://)
+- [HTML 5](https://)
+- [CSS 3](https://)
+- [Java Script](https://)
+# BACK END (Web API)
+- [PHP](https://)
+- [SLIM](https://)
+- [LARAVEL](https://)
+# BANCO DE DADOS
+- [MYSQL](https://)
 
+#Banco de dados e web api sendo rodado localmente utilizando o XAMP com Apache e MySQL
 
 ### Autor
 ---
-
-<a href="#">
- <img style="border-radius: 50%;" src="#" width="100px;" alt=""/>
+<a href="https://github.com/AlexandreSCorreia">
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQGtyPsr-vg1mQ/profile-displayphoto-shrink_200_200/0/1549928028741?e=1613606400&v=beta&t=u3ciP2XdXL0OlUWS9rtC8_rNJRuDqYqcp5hehsh8zkY" width="100px;" alt=""/>
  <br />
  <sub><b>Alexandre Correia</b></sub></a> <a href="#" title="Easy">🚀</a>
-
-
+ <br/>
 Feito com ❤️ por Alexandre Correia 👋🏽 Entre em contato!
+<br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Alexandre-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-solano-a35227158/)]
-
-[![Gmail Badge](https://img.shields.io/badge/-alexandrecorreiacorporativo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandrecorreiacorporativo@gmail.com)]
-
-
+[![Linkedin Badge](https://img.shields.io/badge/-Alexandre-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-solano-a35227158/)](https://www.linkedin.com/in/alexandre-solano-a35227158/) 
+[![Gmail Badge](https://img.shields.io/badge/-alexandrecorreiacorporativo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alexandrecorreiacorporativo@gmail.com)](mailto:alexandrecorreiacorporativo@gmail.com)
 
 MIT License
 
